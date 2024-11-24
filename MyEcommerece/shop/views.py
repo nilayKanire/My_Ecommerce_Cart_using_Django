@@ -8,4 +8,4 @@ from django.http import HttpResponse
 
 # Create views here.
 def index(request):
-    return HttpResponse("Welcome! To index SHOP Nilay")
+    return render(request, 'shop/index.html')
